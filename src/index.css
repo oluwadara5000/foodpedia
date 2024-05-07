@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+img{
+  max-width: 100%;
+  display: block
+}
+
 p, li{
   @apply text-neutral-600;
   line-height: 1.8;
